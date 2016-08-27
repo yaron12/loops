@@ -31,6 +31,12 @@ var person= [
     }
 ];
 
+for (var i = 0;i < person.length; i++){
+	var currentPerson=person[i];
+	var name=currentPerson.name;
+	var height=currentPerson.height;
+	document.write(name+" "+"height is" +" "+ currentPerson.height+"<br>");
+};
 for (var i in person) {
   console.log("height" + " " + "is" + " " + person[i].height);
 }
@@ -44,3 +50,4 @@ for (var i in person) {
 for (var i in person) {
   console.log("height" + " " + "is" + " " + person[i].height);
 }
+
